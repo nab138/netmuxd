@@ -62,7 +62,7 @@ nusb = { git = "https://github.com/jkcoxson/nusb", branch = "webusb", default-fe
 crossfire = { version = "2.1", features = ["tokio"] }
 mdns-sd = "0.19"
 idevice = { version = "0.1.59", default-features = false, features = [
-  "aws-lc",
+  "ring",
   "usbmuxd",
   "heartbeat",
   "pair",
