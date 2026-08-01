@@ -59,7 +59,7 @@ crossfire = { version = "2.1", features = ["tokio"] }
 mdns-sd = "0.19"
 # Local path until the idevice release carrying `usbmuxd::server` and the
 # `mdns` matcher lands; switch back to a published version before publishing.
-idevice = { version = "0.1.61", default-features = false, features = [
+idevice = { version = "0.1.65", default-features = false, features = [
   "ring",
   "usbmuxd",
   "heartbeat",
@@ -76,7 +76,7 @@ uuid = { version = "1.11", features = ["v4"] }
 wasm-bindgen-futures = { version = "0.4", optional = true }
 # Timer future for `crate::sleep` on wasm (tokio's `time` isn't available here).
 gloo-timers = { version = "0.3", features = ["futures"], optional = true }
-idevice = { version = "0.1.61", default-features = false, features = [
+idevice = { version = "0.1.65", default-features = false, features = [
   "heartbeat",
   "pair",
   "wasm",
